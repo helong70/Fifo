@@ -5,6 +5,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
+#include <stddef.h>
 #include "Fifo_cfg.h"
 
 // 通用FIFO缓冲区结构体

@@ -3,4 +3,6 @@
 
 #define HEAP_SIZE 1024
 
+#define FIFO_NUM 2 
+
 #endif

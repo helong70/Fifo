@@ -6,9 +6,10 @@
 static uint8_t fifo_heap[HEAP_SIZE];
 
 static uint32_t heap_offset = 0;
+
 extern fifo_t fifo_cfg[];
 
-#define FIFO_NUM sizeof(fifo_cfg)/sizeof(fifo_cfg[0])
+
 
 // 简单的malloc实现（不支持free）
 void* my_malloc(uint32_t size) {
